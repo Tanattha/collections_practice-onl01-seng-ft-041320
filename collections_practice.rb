@@ -19,9 +19,9 @@ arr.swap!(2,1)
   arr
 end
 
-def swap_elements_from_to(array, index, new_index)
-  array[index], array[new_index] = array[new_index], array[index]
-  return array
+def swap_elements(arr, index, new_index)
+  arr[index], arr[new_index] = arr[new_index], arr[index]
+   arr
 end
 
 def reverse_array(arr)
