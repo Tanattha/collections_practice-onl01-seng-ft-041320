@@ -14,10 +14,8 @@ end
 
 
 def swap_elements(arr, index, new_index)
- arr[1], arr[2] = arr[2], arr[1]
-
+ arr.index, arr.new_index = arr[2], arr[1]
    arr
-   
 end
 
 def reverse_array(arr)
